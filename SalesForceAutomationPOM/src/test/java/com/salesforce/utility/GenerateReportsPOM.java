@@ -28,7 +28,7 @@ public class GenerateReportsPOM
     // creating getinstance method with return type is GenerateReports
     public  static  GenerateReportsPOM getInstance()
     {
-    	if(ob==null)
+    	if(ob==null) 
     	{
     		 ob=new GenerateReportsPOM();
     	}
