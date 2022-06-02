@@ -85,14 +85,7 @@
 						<goals>
 							<goal>generate</goal>
 						</goals>
-						<configuration>
-							<outputDirectory>reports/html-reports</outputDirectory>
-							<inputDirectory>target/cucumber-reports</inputDirectory>
-							<jsonFiles>
-								<param>**/*.json</param>
-							</jsonFiles>
-							<checkBuildResult>true</checkBuildResult>
-						</configuration>
+						
 					</execution>
 				</executions>
 			</plugin>
